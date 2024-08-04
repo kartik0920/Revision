@@ -17,7 +17,6 @@ int main()
     string str = "kit-kat";
     int s = 0, e = str.length() - 1;
     cout << str << " ";
-
     reverse(str, s, e);
     cout << str << endl;
     return 0;
