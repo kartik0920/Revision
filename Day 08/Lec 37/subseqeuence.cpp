@@ -37,7 +37,7 @@ vector<string> getSub(string str)
 
 int main()
 {
-    string str = "abc";
+    string str = "abc ";
     vector<string> subsequence = getSub(str);
     printArr(subsequence);
     return 0;
